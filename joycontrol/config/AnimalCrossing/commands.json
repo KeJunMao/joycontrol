@@ -1,0 +1,336 @@
+{
+  "A": {
+    "cmd": "a",
+    "time": 0.1,
+    "note": "选择 a 键"
+  },
+  "确定": {
+    "cmd": "a",
+    "time": 0.1,
+    "note": "选择 a 键"
+  },
+  "冲": {
+    "cmd": "a",
+    "time": 0.1,
+    "note": "选择 a 键"
+  },
+  "B": {
+    "cmd": "b",
+    "time": 0.1,
+    "note": "取消 b 键"
+  },
+  "取消": {
+    "cmd": "b",
+    "time": 0.1,
+    "note": "取消 b 键"
+  },
+  "不冲": {
+    "cmd": "b",
+    "time": 0.1,
+    "note": "取消 b 键"
+  },
+  "Y": {
+    "cmd": "y",
+    "time": 0.1,
+    "note": "互动 y 键"
+  },
+  "在": {
+    "cmd": "y",
+    "time": 0.1,
+    "note": "互动 y 键"
+  },
+  "X": {
+    "cmd": "x",
+    "time": 0.1,
+    "note": "背包 x 键"
+  },
+  "包包": {
+    "cmd": "x",
+    "time": 0.1,
+    "note": "背包 x 键"
+  },
+  "ZL": {
+    "cmd": "zl",
+    "time": 0.1,
+    "note": "手机"
+  },
+  "手机": {
+    "cmd": "zl",
+    "time": 0.1,
+    "note": "手机"
+  },
+  "ZR": {
+    "cmd": "zr",
+    "time": 0.1,
+    "note": "表情"
+  },
+  "表情": {
+    "cmd": "zr",
+    "time": 0.1,
+    "note": "表情"
+  },
+  "UP": {
+    "cmd": "up",
+    "time": 0.1,
+    "note": "上方向键"
+  },
+  "上": {
+    "cmd": "up",
+    "time": 0.1,
+    "note": "上方向键"
+  },
+  "DOWN": {
+    "cmd": "down",
+    "time": 0.1,
+    "note": "下方向键"
+  },
+  "下": {
+    "cmd": "down",
+    "time": 0.1,
+    "note": "下方向键"
+  },
+  "LEFT": {
+    "cmd": "left",
+    "time": 0.1,
+    "note": "左方向键"
+  },
+  "左": {
+    "cmd": "left",
+    "time": 0.1,
+    "note": "左方向键"
+  },
+  "RIGHT": {
+    "cmd": "right",
+    "time": 0.1,
+    "note": "右方向键"
+  },
+  "右": {
+    "cmd": "right",
+    "time": 0.1,
+    "note": "右方向键"
+  },
+  "WALK_LEFT": {
+    "cmd": [
+      "l",
+      1024,
+      2048
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着左走 1 s"
+  },
+  "左走": {
+    "cmd": [
+      "l",
+      1024,
+      2048
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着左走 1 s"
+  },
+  "WALK_RIGHT": {
+    "cmd": [
+      "l",
+      3072,
+      2048
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着右走 1 s"
+  },
+  "右走": {
+    "cmd": [
+      "l",
+      3072,
+      2048
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝右走 1 s"
+  },
+  "WALK_BACK": {
+    "cmd": [
+      "l",
+      2048,
+      3072
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着前走 1 s"
+  },
+  "后走": {
+    "cmd": [
+      "l",
+      2048,
+      3072
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着前走 1 s"
+  },
+  "WALK_FORWARD": {
+    "cmd": [
+      "l",
+      2048,
+      1024
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝着后走 1 s"
+  },
+  "前走": {
+    "cmd": [
+      "l",
+      2048,
+      1024
+    ],
+    "type": "stick",
+    "time": 1,
+    "note": "朝后走 1 s"
+  },
+  "左跑": {
+    "cmd": [
+      {
+        "cmd": "y"
+      },
+      {
+        "cmd": [
+          "l",
+          0,
+          2048
+        ],
+        "type": "stick"
+      }
+    ],
+    "type": "compose",
+    "time": 1,
+    "note": "朝左跑 1 s"
+  },
+  "右跑": {
+    "cmd": [
+      {
+        "cmd": "y"
+      },
+      {
+        "cmd": [
+          "l",
+          4095,
+          2048
+        ],
+        "type": "stick"
+      }
+    ],
+    "type": "compose",
+    "time": 1,
+    "note": "朝右跑 1 s"
+  },
+  "前跑": {
+    "cmd": [
+      {
+        "cmd": "y"
+      },
+      {
+        "cmd": [
+          "l",
+          2048,
+          0
+        ],
+        "type": "stick"
+      }
+    ],
+    "type": "compose",
+    "time": 1,
+    "note": "朝前跑 1 s"
+  },
+  "后跑": {
+    "cmd": [
+      {
+        "cmd": "y"
+      },
+      {
+        "cmd": [
+          "l",
+          2048,
+          4095
+        ],
+        "type": "stick"
+      }
+    ],
+    "type": "compose",
+    "time": 1,
+    "note": "朝后跑 1 s"
+  },
+  "1号": {
+    "cmd": [
+      "l",
+      2048,
+      4095
+    ],
+    "type": "stick",
+    "note": "选择上工具栏"
+  },
+  "2号": {
+    "cmd": [
+      "l",
+      4095,
+      4095
+    ],
+    "type": "stick",
+    "note": "选择上右工具栏"
+  },
+  "3号": {
+    "cmd": [
+      "l",
+      4095,
+      2048
+    ],
+    "type": "stick",
+    "note": "选择右工具栏"
+  },
+  "4号": {
+    "cmd": [
+      "l",
+      4095,
+      0
+    ],
+    "type": "stick",
+    "note": "选择右下工具栏"
+  },
+  "5号": {
+    "cmd": [
+      "l",
+      2048,
+      0
+    ],
+    "type": "stick",
+    "note": "选择下工具栏"
+  },
+  "6号": {
+    "cmd": [
+      "l",
+      0,
+      0
+    ],
+    "type": "stick",
+    "note": "选择下左工具栏"
+  },
+  "7号": {
+    "cmd": [
+      "l",
+      0,
+      2048
+    ],
+    "type": "stick",
+    "note": "选择左工具栏"
+  },
+  "8号": {
+    "cmd": [
+      "l",
+      0,
+      4095
+    ],
+    "type": "stick",
+    "note": "选择左上工具栏"
+  }
+}

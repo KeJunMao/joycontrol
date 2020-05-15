@@ -222,8 +222,8 @@ if __name__ == '__main__':
         raise PermissionError('Script must be run as root!')
 
     # setup logging
-    #log.configure(console_level=logging.ERROR)
-    log.configure()
+    log.configure(console_level=logging.ERROR)
+    # log.configure()
 
     parser = argparse.ArgumentParser()
     parser.add_argument('controller', help='JOYCON_R, JOYCON_L or PRO_CONTROLLER')
